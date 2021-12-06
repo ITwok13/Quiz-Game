@@ -1,0 +1,98 @@
+
+.choice-container{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    background-color: blue;
+    width: 100%;
+    border-radius: 4rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    min-width: 80rem;
+    height: 20%;
+}
+.choice-container:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 0.4rem 1.4rem 0;
+transform: transfor 100ms;
+}
+.choice-symbol{
+    padding:2rem 2.5rem;
+    color: white;
+}
+.choice-text{
+    padding:2rem;
+width: 100%;
+color: white;
+}
+.correct{
+    background-color: green;
+}
+.incorrect {
+    background-color: red;
+}
+@media screen and (max-width:768px) {
+    .choice-container{
+        min-width: 40rem;
+    }
+}
+
+
+.score .score-num{
+    width: 40rem;
+   color: yellowgreen;
+    
+    transform: scale(1.4rem);
+}
+
+body{
+    color: wheat;
+}
+
+#progress-text{
+    width: 5rem;
+    padding: 0px;
+    border: solid green 0.2rem;
+    overflow: hidden;
+    border-radius:50px;
+    margin-top:2rem;
+    height:3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: gold;
+    width: 30px;
+    font-weight: bold;
+   display: flex;
+   align-items: center;
+   margin:0.3rem 0.3 0.3 0.3;
+    
+}
+#score {
+   border: solid 0.2rem;
+   border-radius: 50px;
+   display: flex;
+align-items: center;
+justify-content: center;
+padding: 0px;
+margin-top: 2rem;
+height: 3rem;
+width: 5rem;
+
+}
+.timer{
+ border: solid 0.2rem white;
+ border-radius: 2rem;
+width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin-top: 2rem;
+
+}

@@ -1,0 +1,100 @@
+
+
+:root {
+    background-color: black;
+
+}
+*{
+    box-sizing: border-box;
+    margin : 0 ;
+    padding: 0;
+}
+h1{
+    font-size: 5.4rem;
+    margin-bottom: 5rem;
+color: blanchedalmond;
+
+}
+.container {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid ;
+    border-radius: 5px;
+    width: 30rem;
+    padding: 2rem 0;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+background-color: red;
+transform: scale();
+cursor: pointer;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid ;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transform: scale();
+    width: 30rem;
+    padding: 2rem 0;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+background-color: yellowgreen;
+}
+.container-end {
+    display: flex;
+    align-items: center;
+    border-radius: solid 0.4rem green;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid grey 0.5rem;
+    border-radius: 0.3rem;
+    padding: 0px;
+}
+button {
+
+display: flex;
+align-items: center;
+justify-content: center;
+width: 7rem;
+height: 2rem;
+font: 2rem sans-serif;
+background-color:aqua;
+
+}
+.btn1 {
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    padding: 0px;
+    height:4rem;
+    background-color:white;
+    font: italic bold black;
+    margin: 0.3rem;
+}
+
+#username {
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    margin: 0.3rem;
+}
